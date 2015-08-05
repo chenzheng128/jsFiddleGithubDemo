@@ -1,10 +1,71 @@
-$fullred = #ff0000;
-body {
-	font-family: Helvetica, Verdana
+body{
+	/*background-color: azure; */
+	background-color: #FEF2F2;
+	text-align: center;
+	font-family: courier;
 }
-p {
-	padding: 7px 10px;
+h1 {
+	background-color: #FEF2F2;
 }
-#demo { 
-	border: 1px solid $fullred;
+h6{
+	font-family: arial;
+}
+span{
+	font-family: "imprint mt shadow";
+	color: darkgray;
+}
+
+a{
+	font-size: larger;
+	/* font-family: "arial black"; */
+	font-family: "courier";
+    color: #D5BEAE;
+}
+a:hover{
+	color:crimson;
+	font-size: x-large;
+}
+td img{
+	height: 200px;
+	width: 200px;
+	
+}
+th img{
+	height: 200px;
+	width: 200px;
+}
+div img{
+	height: 451px;
+	width: 300px;
+}
+ul{
+	list-style-type: none;
+	position: fixed;
+	margin: 10px;
+}
+
+li {
+	display: block;
+	border: 2px solid #000000;
+	font-family: Futura, Tahoma, sans-serif;
+	color: #ffffff;
+	border-radius: 5px 5px;
+	background-color: #cc0323;
+	padding: 5px;
+}
+#navbar {
+	position:fixed;
+	margin-top:-10px;
+	left:100%;
+	margin-left:-254px;
+}
+
+#header {
+	position: relative;
+	top: -10px;
+	background-color:antiquewhite;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
 }
