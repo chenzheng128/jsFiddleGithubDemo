@@ -7,6 +7,7 @@ authors:
 resources:
   - /js/empty.js
   - /css/normalize.css
+  - /img/changfu2_fense.jpg
 normalize_css: yes
 lang_css: SCSS
 ...
